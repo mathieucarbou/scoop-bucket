@@ -7,7 +7,7 @@
 	"depends": ["lua"],
 	"installer": {
 		"file": "install.bat",
-		"args": ["/Q", "/F", "/LUA", "%LOCALAPPDATA%\\scoop\\apps\\lua\\v5.1.5-51"],
+		"args": ["/Q", "/F", "/LUA", "%LOCALAPPDATA%/scoop/apps/lua/v5.1.5-51"],
 		"keep": true
 	}
 }
