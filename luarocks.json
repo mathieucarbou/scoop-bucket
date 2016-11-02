@@ -7,7 +7,7 @@
 	"bin": ["%LOCALAPPDATA%/scoop/apps/lua/v5.1.5-51/luarocks.bat", "%LOCALAPPDATA%/scoop/apps/lua/v5.1.5-51/luarocks-admin.bat"],
 	"depends": ["lua"],
 	"installer": {
-		"file": "luarocks-2.4.1-win32/install.bat",
+		"file": "install.bat",
 		"args": ["/Q", "/F", "/LUA", "%LOCALAPPDATA%/scoop/apps/lua/v5.1.5-51"],
 		"keep": true
 	}
