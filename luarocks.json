@@ -1,13 +1,13 @@
 {
-    "version": "2.4.1",
-    "url": "http://keplerproject.github.io/luarocks/releases/luarocks-2.4.1-win32.zip",
-    "homepage":  "https://luarocks.org/",
-    "hash":  "c6cf36ca2e03b1a910e4dde9ac5c9360dc16f3f7afe50a978213d26728f4c667",
-    "bin":  ["luarocks.bat", "luarocks-admin.bat"],
-    "depends":  ["lua"],
-    "installer": {
-      "file": "install.bat",
-      "args": ["/Q", "/F", "/LUA", "%LOCALAPPDATA%\scoop\apps\lua\v5.1.5-51"]
-      "keep": true
-    }
+	"version": "2.4.1",
+	"url": "http://keplerproject.github.io/luarocks/releases/luarocks-2.4.1-win32.zip",
+	"homepage": "https://luarocks.org/",
+	"hash": "c6cf36ca2e03b1a910e4dde9ac5c9360dc16f3f7afe50a978213d26728f4c667",
+	"bin": ["luarocks.bat", "luarocks-admin.bat"],
+	"depends": ["lua"],
+	"installer": {
+		"file": "install.bat",
+		"args": ["/Q", "/F", "/LUA", "%LOCALAPPDATA%\\scoop\\apps\\lua\\v5.1.5-51"],
+		"keep": true
+	}
 }
